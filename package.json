@@ -1,0 +1,29 @@
+{
+  "name": "ahj-diplomabackend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "forever server.js",
+    "watch": "forever -w server.js",
+    "list": "forever list",
+    "stop": "forever stopall"
+  },
+  "repository": "https://github.com/Katrina-Panina/ahj-diplomabackend.git",
+  "author": "Katerina Panina <khomenko.kat@mail.ru>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "forever": "^3.0.4",
+    "koa": "^2.13.4",
+    "koa-body": "^4.2.0",
+    "koa-router": "^10.0.0",
+    "koa-static": "^5.0.0",
+    "koa2-cors": "^2.0.6",
+    "uuid": "^8.3.2",
+    "ws": "^8.2.3"
+  },
+  "engines": {
+    "node": "10.x"
+  }
+}
