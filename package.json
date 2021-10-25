@@ -13,15 +13,15 @@
   "author": "Katerina Panina <khomenko.kat@mail.ru>",
   "license": "MIT",
   "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "forever": "^3.0.4",
-    "koa": "^2.13.4",
+    "koa": "^2.13.1",
     "koa-body": "^4.2.0",
     "koa-router": "^10.0.0",
     "koa-static": "^5.0.0",
     "koa2-cors": "^2.0.6",
     "uuid": "^8.3.2",
-    "ws": "^8.2.3"
+    "ws": "^7.4.6"
   },
   "engines": {
     "node": "10.x"
